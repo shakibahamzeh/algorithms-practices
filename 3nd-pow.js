@@ -3,7 +3,7 @@ function powNum (firstNum , secondNum) {
    for(let i = 1 ; i <= secondNum ;  i ++) {
      finalResult = finalResult * firstNum;
    }
-   console.log(finalResult);
+   return finalResult;
 }
 
-powNum(2,3)
+console.log(powNum(2,3))

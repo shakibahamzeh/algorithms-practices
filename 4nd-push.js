@@ -1,6 +1,6 @@
 function pushInArray (arr , item){
     arr[arr.length] = item
-    console.log(arr)
+    return arr;
 }
 
-pushInArray([1,2,3],4)
+console.log(pushInArray([1,2,3],4))

@@ -11,7 +11,7 @@ while(num) {
   sum = sum + num % 10
   num = Math.trunc(num / 10)
 }
-  console.log(sum)
+  return sum
 } 
 
-sumDigits(542)
+console.log(sumDigits(542))
